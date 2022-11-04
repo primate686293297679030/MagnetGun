@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "Magnet",
+			"Path": "C:\\Users\\SimonLiljedahl\\OneDrive - Change Maker Education\\Documents\\Unreal Projects\\Magnet\\Source\\Magnet.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MagnetEditor",
+			"Path": "C:\\Users\\SimonLiljedahl\\OneDrive - Change Maker Education\\Documents\\Unreal Projects\\Magnet\\Source\\MagnetEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
