@@ -1,4 +1,20 @@
 ﻿  Using bundled DotNet SDK
   Log file: C:\Users\SimonLiljedahl\AppData\Local\UnrealBuildTool\Log.txt
-  Target is up to date
-  Total execution time: 0,52 seconds
+  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\SimonLiljedahl\OneDrive - Change Maker Education\Documents\Unreal Projects\Magnet).
+  Waiting for 'git status' command to complete
+  Invalidating makefile for MagnetEditor (working set of source files changed)
+  Building MagnetEditor...
+  Using Visual Studio 2022 14.33.31630 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  [Adaptive Build] Excluded from Magnet unity file: Gun.cpp
+  Determining max actions to execute in parallel (6 physical cores, 12 logical cores)
+    Executing up to 6 processes, one per physical core
+    Requested 1,5 GB free memory per action, 4,12 GB available: limiting max parallel actions to 2
+  Building 4 actions with 2 processes...
+  [1/4] Compile Gun.cpp
+  [2/4] Link UnrealEditor-Magnet.lib
+     Creating library C:\Users\SimonLiljedahl\OneDrive - Change Maker Education\Documents\Unreal Projects\Magnet\Intermediate\Build\Win64\UnrealEditor\Development\Magnet\UnrealEditor-Magnet.lib and object C:\Users\SimonLiljedahl\OneDrive - Change Maker Education\Documents\Unreal Projects\Magnet\Intermediate\Build\Win64\UnrealEditor\Development\Magnet\UnrealEditor-Magnet.exp
+  [3/4] Link UnrealEditor-Magnet.dll
+     Creating library C:\Users\SimonLiljedahl\OneDrive - Change Maker Education\Documents\Unreal Projects\Magnet\Intermediate\Build\Win64\UnrealEditor\Development\Magnet\UnrealEditor-Magnet.suppressed.lib and object C:\Users\SimonLiljedahl\OneDrive - Change Maker Education\Documents\Unreal Projects\Magnet\Intermediate\Build\Win64\UnrealEditor\Development\Magnet\UnrealEditor-Magnet.suppressed.exp
+  [4/4] WriteMetadata MagnetEditor.target
+  Total time in Parallel executor: 8,52 seconds
+  Total execution time: 10,45 seconds

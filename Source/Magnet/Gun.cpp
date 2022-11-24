@@ -21,7 +21,7 @@ void AMagnetGun::CallbackfunctionToDelegate(float index)
 
 void AMagnetGun::PlayerInputs(float value)
 {
-	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("Health: %f")));
+	GEngine->AddOnScreenDebugMessage(-1, 1.f, FColor::Yellow, FString::Printf(TEXT("He")));
 }
 
 void AMagnetGun::BeginPlay()
@@ -82,7 +82,7 @@ void AMagnetGun::HandleOverlap(UPrimitiveComponent* OverlappedComponent, AActor*
 				bAttached = true;
 
 			}
-			//Player->Fplayerinput.AddDynamic(this, &AMagnetGun::PlayerInputs);
+			Player->Fplayerinput.AddDynamic(this, &AMagnetGun::PlayerInputs);
 		}
 	}
 
